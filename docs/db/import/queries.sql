@@ -64,5 +64,3 @@ WHERE product_id = ?;
 
 DELETE FROM products WHERE id = ?;
 
--- 12. Удаление товара без связанных заказов (выполнять только после проверки выше).
--- DELETE FROM products WHERE id = ?;
